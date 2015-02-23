@@ -23,7 +23,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         clear_button.setOnClickListener(this);
     }
 
-
+    //This method is not in use
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
