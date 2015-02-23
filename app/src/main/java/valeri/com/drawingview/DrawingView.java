@@ -48,9 +48,6 @@ public class DrawingView extends View {
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
-
-               // point.clear();
-                //path = new Path();
                 path.moveTo(event.getX(), event.getY());
 
                 break;
